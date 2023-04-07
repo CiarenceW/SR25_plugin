@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <AssemblyName>SR25_plugin</AssemblyName>
+    <Description>My first plugin</Description>
+    <Version>1.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.*" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
+    <PackageReference Include="UnityEngine.Modules" Version="2019.4.29" IncludeAssets="compile" />
+  </ItemGroup>
+  
+  <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\Binaries\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\Binaries\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\M3SUPER90_Plugin\Libraries\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="FMODDef">
+      <HintPath>..\Binaries\FMODDef.dll</HintPath>
+    </Reference>
+    <Reference Include="Receiver2ModdingKit">
+      <HintPath>..\M3SUPER90_Plugin\Libraries\Receiver2ModdingKit.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleJSON">
+      <HintPath>..\Binaries\SimpleJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="TubeMagazineScript">
+      <HintPath>..\Binaries\TubeMagazineScript.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>..\Binaries\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\M3SUPER90_Plugin\Libraries\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Binaries\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\Binaries\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Wolfire">
+      <HintPath>..\M3SUPER90_Plugin\Libraries\Wolfire.dll</HintPath>
+    </Reference>
+    <Reference Include="Wolfire.Receiver2">
+      <HintPath>..\Binaries\Wolfire.Receiver2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
