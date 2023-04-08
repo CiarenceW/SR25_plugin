@@ -37,5 +37,6 @@ Or just, you know, DM on Discord with your player.log :D
 ## Credits
  Szikaka for helping me kill Malenia, I can finally finish this fucking game!!!!!!!!.</br>
  Wolfire for all this cool stuff to keep me occupied, how nice! (you know what would be nicer? an AR-15 ;) )</br>
+ [Vazgriz](https://vazgriz.com/158/reflex-sight-shader-in-unity3d/) for the Red dot and scope shader (and also Szikaka, again)</br>
  BSG for the sounds, models, and textures</br>
  Rest by the person who copied this readme from the MP9's. (Ciarence#6364) </br>
