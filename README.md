@@ -1,7 +1,8 @@
 # SR25_plugin
 The no-strings-attached hybrid-scoped DMR for Receiver 2!<br>
 
-Also check out: [MagLoaderThing](https://github.com/CiarenceW/MagLoaderThing), this un-cuts a thing in the Compound that makes reloading big magazines nice, cool and relaxing :D
+Also check out: [MagLoaderThing](https://github.com/CiarenceW/MagLoaderThing), this un-cuts a thing in the Compound that makes reloading big magazines nice, cool and relaxing :D  
+And [this](https://github.com/CiarenceW/r2_CustomCompoundAmmoBoxes) as well, it adds ammo boxes for modded cartridges in the Compound, with possibilities of adding custom models for them too!
 
 <image align="center" src="CoolPics/imthecallat4butimnotthereanymore.png">
 
