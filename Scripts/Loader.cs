@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace SR25_plugin
 {
-    [BepInPlugin("CiarenceW.SR-25", "SR-25", "1.0.0")]
+    [BepInPlugin("CiarenceW.SR-25", "SR-25", "2.0.0")]
     public class Loader : BaseUnityPlugin
     {
         private void Awake()
