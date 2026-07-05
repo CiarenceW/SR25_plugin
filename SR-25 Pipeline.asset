@@ -70,5 +70,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Active: 1
   assetBundleOptions: 256
-  onlyBuildCurrentPlatform: 1
+  onlyBuildCurrentPlatform: 0
   bundleArtifactPath: <SR-25StagingPath>
