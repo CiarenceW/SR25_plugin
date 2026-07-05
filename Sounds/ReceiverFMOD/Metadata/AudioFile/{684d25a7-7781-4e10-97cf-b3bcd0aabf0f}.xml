@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{684d25a7-7781-4e10-97cf-b3bcd0aabf0f}">
+		<property name="assetPath">
+			<value>p01_ar_mike4_selectsemi_off_cut.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.49612499999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d4cec67b-7308-4b45-9d55-4626acc5bce3}</destination>
+		</relationship>
+	</object>
+</objects>

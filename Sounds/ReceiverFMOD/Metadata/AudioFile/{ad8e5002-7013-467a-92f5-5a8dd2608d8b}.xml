@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{ad8e5002-7013-467a-92f5-5a8dd2608d8b}">
+		<property name="assetPath">
+			<value>weap_stango25_fcg_deadtrig_plr_06_pull.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.18822916666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d4cec67b-7308-4b45-9d55-4626acc5bce3}</destination>
+		</relationship>
+	</object>
+</objects>

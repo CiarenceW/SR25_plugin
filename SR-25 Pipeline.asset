@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8037444931022971001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f65d4371163fb4695da79ab8df0e84, type: 3}
+  m_Name: ExecuteProcess
+  m_EditorClassIdentifier: 
+  Active: 0
+  PerManifest: 0
+  ListType: 0
+  Manifests: []
+  workingDirectory: G:\SteamLibrary\steamapps\common\Receiver 2
+  executable: Receiver2.exe
+  arguments:
+  - '--doorstop-enable true '
+  - '--doorstop-target "C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\core\BepInEx.Preloader.dll" '
+--- !u!114 &-4062859973286281055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5b20fac9c71fd64183cb7a8f359d73a, type: 3}
+  m_Name: StageAssemblies
+  m_EditorClassIdentifier: 
+  Active: 1
+  stageDebugDatabases: 0
+  releaseBuild: 0
+  assemblyArtifactPath: <AssemblyStaging>
+  buildTarget: 5
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3695521163bdd74fa2845bbd3438240, type: 3}
+  m_Name: SR-25 Pipeline
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: -4062859973286281055}
+  - {fileID: 7471062826458551848}
+  - {fileID: -8037444931022971001}
+  QuickAccess: 1
+  manifest: {fileID: 11400000, guid: 7b14b9df8d17e1d4bb14219f56859dff, type: 2}
+--- !u!114 &7471062826458551848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 860ece8c9d31e5445b7f842749fd13ad, type: 3}
+  m_Name: MultiOSBuild
+  m_EditorClassIdentifier: 
+  Active: 1
+  assetBundleOptions: 256
+  onlyBuildCurrentPlatform: 1
+  bundleArtifactPath: <SR-25StagingPath>

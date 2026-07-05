@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{ec4e9c9c-0b66-4648-94ca-625f88c3a699}">
+		<property name="assetPath">
+			<value>weap_stango25_fire_plr_first_fcg_04.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.40000000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d4cec67b-7308-4b45-9d55-4626acc5bce3}</destination>
+		</relationship>
+	</object>
+</objects>

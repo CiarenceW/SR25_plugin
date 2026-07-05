@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5125201698176519432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
+  m_Name: AssetBundleDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <CodeExportPath>/CiarenceW-SR25
+  assetBundles:
+  - assetBundleName: ciarencew-sr25.windows
+    assets:
+    - {fileID: 3636453567806031451, guid: 442d589c6bc7f1244a2cbe298de0e3f2, type: 3}
+    - {fileID: 7848028508184023120, guid: b5debbd4c58c8434a9f16f222051885c, type: 3}
+    - {fileID: 927735858329899582, guid: 14c84ac2e58b3e741a18b0f255f387b5, type: 3}
+    - {fileID: 8299303897796206375, guid: 32e3246e3fd24314cab6c61a7374637c, type: 3}
+    - {fileID: 8489371879693407440, guid: 69afd7c5eb679ce4997e1cdf7f8547db, type: 3}
+    - {fileID: 7241315279682219742, guid: 4626d2c4e2da7d4468396fc5c76c5a03, type: 3}
+    - {fileID: 11400000, guid: dd5ea2e6a33a82a4696de42744348c09, type: 2}
+--- !u!114 &-3555676866797880435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <GunsExportPath>/CiarenceW-SR25
+  includeMetaFiles: 0
+  files: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: SR-25 Manifest
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 2618766313811482580}
+  - {fileID: 6528529851144377890}
+  - {fileID: -5125201698176519432}
+  - {fileID: -3555676866797880435}
+  identity: {fileID: 2618766313811482580}
+  QuickAccess: 1
+--- !u!114 &2618766313811482580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  Author: CiarenceW
+  Name: SR-25
+  Description: SR25 Mod for Receiver 3 haha just kidding 2
+  Version: 1.0.0
+  Dependencies:
+  - {fileID: 11400000, guid: ac948e712e82b4342afad8444c5eaacd, type: 2}
+--- !u!114 &6528529851144377890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <CodeExportPath>/CiarenceW-SR25
+  definitions:
+  - {fileID: 5897886265953266890, guid: 28ee1f4c43a5180469be6327968754f1, type: 3}

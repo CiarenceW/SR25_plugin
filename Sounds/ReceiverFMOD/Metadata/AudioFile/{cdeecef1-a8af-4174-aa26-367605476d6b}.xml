@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{cdeecef1-a8af-4174-aa26-367605476d6b}">
+		<property name="assetPath">
+			<value>weap_stango25_fire_plr_shot_06.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>3.3199999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d4cec67b-7308-4b45-9d55-4626acc5bce3}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: b6a43858489113245a1a757616e6d1dc
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7.62x51mm Mat
+    second: {fileID: 2100000, guid: d921faf262b0e2a49972d8a5aa0c8442, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 15afa803a9d551141873537b10179946, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25BackupSightGlassMat
+    second: {fileID: 2100000, guid: 973829ca48e5c334a8aedbe8da36ced2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25BackupSightMat
+    second: {fileID: 2100000, guid: c181592f88ea5f948ad6d1febc7c3495, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25BackupSightReticuleMat
+    second: {fileID: 2100000, guid: f4343fde2f3026e46956635dcdd3e11a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25BarrelMat
+    second: {fileID: 2100000, guid: 2bb38d636e54b7449bffd8bfd0ecac1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25BufferTubeMat
+    second: {fileID: 2100000, guid: bcc7708d1381d774ba3ecb94e377a995, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25CasteNutBufferTubeMat
+    second: {fileID: 2100000, guid: 85e5df9c0cd31b44b9d7aa9405862d24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25ChargingHandleMat
+    second: {fileID: 2100000, guid: 35794ac50040a774d9f28d53dbc58b9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25FrontSightMat
+    second: {fileID: 2100000, guid: e0973fcdbb06dab45acc5917fa36368e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25GasBlockMat
+    second: {fileID: 2100000, guid: d94aff414a82bdd4d95ba7a303abb9c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25HandguardMat
+    second: {fileID: 2100000, guid: f69d8dde5ba92124da872cd139d10639, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25LowerReceiverMat
+    second: {fileID: 2100000, guid: b482ca12ac63e624f8a582686423b7b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25MagMat
+    second: {fileID: 2100000, guid: 93fc9b7c54a4a0344b00ce79a484fd76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25MuzzleMat
+    second: {fileID: 2100000, guid: f72d7e03454a34a4885068a647196971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25PistolGripMat
+    second: {fileID: 2100000, guid: 9f6a7f981239bb24baff5f1367d1b0a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25RearSightMat
+    second: {fileID: 2100000, guid: 128a6ac637d45314aae5564a873ee8d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25ScopeGlassMat
+    second: {fileID: 2100000, guid: fee1bf6facfca4348b6465e738d06903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25ScopeMat
+    second: {fileID: 2100000, guid: bb57076877741f448b12b9bede408757, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25ScopeMountMat
+    second: {fileID: 2100000, guid: ba107d7fa50794c44b20f32a0680a846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25ScopeReticuleMat
+    second: {fileID: 2100000, guid: 457da84a496ba384c8d405d6124a3ff2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25StockMat
+    second: {fileID: 2100000, guid: 4bed9addcc690a9459f2a9b425d7ad94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SR25UpperReceiverMat
+    second: {fileID: 2100000, guid: f21c624ea3ef7f545b79925703dca9fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SpringMat
+    second: {fileID: 2100000, guid: 20265ec337240e0449d0061a12355e5b, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
